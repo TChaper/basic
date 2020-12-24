@@ -18,3 +18,23 @@ var h = 2 * 8
 print(h)
 var i = 2 * 9
 print(i)
+
+print("4단과 5단")
+var result = 4 * 1
+print(result)
+result = 4 * 2
+print(result)
+result = 4 * 3
+print(result)
+result = 4 * 4
+print(result)
+result = 4 * 5
+print(result)
+result = 4 * 6
+print(result)
+result = 4 * 7
+print(result)
+result = 4 * 8
+print(result)
+result = 4 * 9
+print(result)
