@@ -49,3 +49,12 @@ while six < 10 {
 for seven in 1 ..< 10 {
   print(seven * 7)
 }
+
+print("8단과 9단")
+for eight in 2 ..< 10 {
+  for nine in 1 ..< 10 {
+    if eight % 2 == 1 {
+      print(eight * nine)
+    }
+  }
+}
