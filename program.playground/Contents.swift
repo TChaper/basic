@@ -46,8 +46,6 @@ while six < 10 {
   six += 1
 }
 
-for seven in 7 ..< 8 {
-  for eight in 1 ... 9 {
-    print("\(seven * eight)")
-  }
+for seven in 1 ..< 10 {
+  print(seven * 7)
 }
