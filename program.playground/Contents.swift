@@ -38,3 +38,16 @@ result = 4 * 8
 print(result)
 result = 4 * 9
 print(result)
+
+print("6단과 7단")
+var six = 1
+while six < 10 {
+  print(six * 6)
+  six += 1
+}
+
+for seven in 7 ..< 8 {
+  for eight in 1 ... 9 {
+    print("\(seven * eight)")
+  }
+}
