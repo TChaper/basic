@@ -36,3 +36,17 @@ func whatIsGrade(point : Int)-> Character {
   }
 }
 print(whatIsGrade(point: 100)) // A
+
+//연습 문제
+//구구단 함수를 반복문을 활용해서 만들어보세요.
+func gugu(dan : Int) {
+  for back in  1 ... 9 {
+    print("\(dan) X \(back) = \(dan * back)")
+  }
+}
+
+func makeAll() {
+  for front in 1 ... 9 {
+    gugu(dan: front)
+  }
+}
